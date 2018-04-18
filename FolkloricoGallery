@@ -1,0 +1,148 @@
+ <!DOCTYPE html>
+<html>
+    <head>
+        <title> Akins Ballet Folklorico</title>
+        <link rel="icon" href="https://www.akinseagles.org/favicon.ico" type="image/x-icon">
+        <link rel="shortcut icon" href="https://www.akinseagles.org/favicon.ico" type="image/x-icon">
+   
+        
+        
+        <section id = "tabs">
+        <aside>
+                <ul>
+                    <li><a href="donate.asp">Donate</a></li>
+                    <li><a href="book.asp">Book a Performance</a></li>
+                    <li><a href="gallary.asp">Gallery</a></li>
+                    <li class = "topLeft"><a herf="default.asp"><strong> Akins Ballet Folklorico</strong></a></li>
+                </ul>
+            </aside>
+        <style>
+            ul {
+                width: 100%;
+                list-style-type: none;
+                position: absolute;
+                overflow: hidden;
+                top: 0;
+                margin: 0;
+                padding: 20px;
+                color: white;
+                background-color: black;
+                left:0;
+                }
+
+            li {
+                float: right;
+                margin-right: 50px;
+                margin-left: 10px;
+                margin-top: 10px;
+                color: white;
+                }
+            li a {
+                text-align: center;
+                display: block;
+                color: #000;
+                padding: 10px 30px;
+                text-decoration: none;
+                color:white;
+                font-size: 20px;
+                }
+            li a:hover {
+                background-color: black;
+                color: firebrick;
+                }
+            .active {
+                background-color: black;
+                color: firebrick;
+                }
+            .topLeft {
+                float: left;
+                font-size: 20px;
+                }
+            .topLeft a:hover {
+                color: firebrick;
+                background-color:black;
+                font-size: 20px;
+                }
+            body{
+                background-color: white;
+                }
+            #slides{
+                z-index:-1;
+                }
+            #tabs{
+                z-index:1;
+                }
+        </style>
+        </section>
+    </head>
+    
+    <body>
+        <h1> Gallery </h1>
+        <img id = "conssesion"src = "https://pbs.twimg.com/media/CrZh12GUAAAQaVT.jpg">
+        <img id = "cinco" src = "https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/13015551_1588893291438127_5619080832633471387_n.jpg?_nc_cat=0&oh=861cc0a0372d818d67c8e605511ed141&oe=5B55E4EC">
+        <img id = "grito" src = "https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/13007303_1588898248104298_6430573407679748673_n.jpg?_nc_cat=0&oh=c07de92f8447fde98db64b2f24402870&oe=5B5BBC84">
+        <img id = "comp" src = "https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/28280113_1700080270048455_3832543198266473748_n.jpg?_nc_cat=0&oh=2122c78fa0a1a6a78f8835a79001bdb8&oe=5B5B07CF">
+        <img id = "LizSam" src = "https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/18222418_10213170608846969_6795143550916839941_n.jpg?_nc_cat=0&oh=18e2997d91f7bd8810432af68076d791&oe=5B741234">
+        
+        
+        <style>
+            h1{
+                font-size: 30px;
+                top:150px;
+                position:absolute;
+                left:45%;
+                }
+            #conssesion{
+                position: absolute;
+                top: 250px;
+                height: auto;
+                width: 500px;
+                margin: 10px;
+                padding 10px;
+                }
+            #cinco{
+                position: absolute;
+                top: 250px;
+                height: 300px;
+                width: auto;
+                margin: 10px;
+                padding: 10px;
+                left: 500px;
+                float: left;
+                }
+            #grito {
+                transform: rotate(270deg);
+                position: absolute;
+                float: left;
+                margin:10px;
+                padding: 10px;
+                left:657px;
+                top: 350px;
+                height: 700px;
+                width: auto;
+                clip: rect(0px, 350px,670px,0px);
+                }
+            #comp {
+                position: absolute;
+                float: left;
+                top: 250px;
+                margin: 10px;
+                padding: 10px;
+                left: 810px;
+                height: 300px;
+                width: auto;
+                }
+            #LizSam {
+                position: absolute;
+                top: 760px;
+                height: 400px;
+                width: auto;
+                margin: 10px;
+                padding 10px;
+                }
+        </style>
+    </body>
+    
+ 
+    
+</html>
