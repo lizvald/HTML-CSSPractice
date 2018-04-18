@@ -1,0 +1,125 @@
+   <!DOCTYPE html>
+<html>
+    <head>
+        <title> Akins Ballet Folklorico</title>
+        <link rel="icon" href="https://www.akinseagles.org/favicon.ico" type="image/x-icon">
+        <link rel="shortcut icon" href="https://www.akinseagles.org/favicon.ico" type="image/x-icon">
+   
+        
+        
+        <section id = "tabs">
+        <aside>
+                <ul>
+                    <li><a href="donate.asp">Donate</a></li>
+                    <li><a href="book.asp">Book a Performance</a></li>
+                    <li><a href="gallary.asp">Gallery</a></li>
+                    <li class = "topLeft"><a herf="default.asp"><strong> Akins Ballet Folklorico</strong></a></li>
+                </ul>
+            </aside>
+        <style>
+            ul {
+                width: 100%;
+                list-style-type: none;
+                position: absolute;
+                overflow: hidden;
+                top: 0;
+                margin: 0;
+                padding: 20px;
+                color: white;
+                background-color: black;
+                left:0;
+                }
+
+            li {
+                float: right;
+                margin-right: 50px;
+                margin-left: 10px;
+                margin-top: 10px;
+                color: white;
+                }
+            li a {
+                text-align: center;
+                display: block;
+                color: #000;
+                padding: 10px 30px;
+                text-decoration: none;
+                color:white;
+                font-size: 20px;
+                }
+            li a:hover {
+                background-color: black;
+                color: firebrick;
+                }
+            .active {
+                background-color: black;
+                color: firebrick;
+                }
+            .topLeft {
+                float: left;
+                font-size: 20px;
+                }
+            .topLeft a:hover {
+                color: firebrick;
+                background-color:black;
+                font-size: 20px;
+                }
+            body{
+                background-color: white;
+                }
+            #slides{
+                z-index:-1;
+                }
+            #tabs{
+                z-index:1;
+                }
+        </style>
+        </section>
+    </head>
+        
+        
+    
+    
+    <body>
+        <h1> <strong>Book A Performance Today! </strong>  </h1>
+        
+        
+        <p id="book"> To book a performance please e-mail Nicholas Mingote ______   providing the following:</p>
+
+        <p id = "info">Name<br>
+           Event Type <br>
+           Location <br>
+           Date <br>
+           Contact <br>
+           Additional Information <br>
+        </p>
+        
+        <style>
+            p{ 
+                font-size: 20px;
+                top: 250px;
+                position: absolute;
+                left: 25%;
+                margin: 20px;
+                padding: 20px;
+                }
+            h1{
+               font-size: 30px;
+                top:150px;
+                position:absolute;
+                left:35%;
+                }
+            #info{
+                font size: 15px;
+                top: 300px;
+                position: absolute;
+                left: 30%;
+                margin: 20px;
+                padding: 20px;
+                }
+        </style>
+    </body>
+    
+    
+</html>
+
+    
