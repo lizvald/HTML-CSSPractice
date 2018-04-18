@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Akins Ballet Folklorico</title>
+        <link rel="icon" href="https://www.akinseagles.org/favicon.ico" type="image/x-icon">
+        <link rel="shortcut icon" href="https://www.akinseagles.org/favicon.ico" type="image/x-icon">
+
+               
+    <section id = "slides">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+            <style>
+            * {box-sizing: border-box;}
+            body {font-family: Verdana, sans-serif;}
+            .mySlides {display: none;}
+            img {vertical-align: middle;}
+
+            /* Slideshow container */
+            .slideshow-container {
+                width: 100%;
+                height: 800px;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 0px;
+                top:0px;
+                left: 0;
+                right: 0;
+                position: absolute;
+            }
+                
+            .image {
+                width: 100%;
+                height: 800px;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 0px;
+                top:0px;
+                left: 0;
+                right: 0;
+                position: absolute;
+            }
+
+            .dot {
+              height: 15px;
+              width: 15px;
+              margin: 0 2px;
+              background-color: #bbb;
+              border-radius: 50%;
+              display: inline-block;
+              transition: background-color 0.6s ease;
+              position:absolute;
+            }
+
+            .active {
+              background-color: #717171;
+            }
+
+            /* Fading animation */
+            .fade {
+              -webkit-animation-name: fade;
+              -webkit-animation-duration: 10s;
+              animation-name: fade;
+              animation-duration: 1.5s;
+            }
+
+            @-webkit-keyframes fade {
+                from {opacity: .4} 
+                to {opacity: 1}
+            }
+
+            @keyframes fade {
+                from {opacity: .4} 
+                to {opacity: 1}
+            }
+
+            /* On smaller screens, decrease text size */
+            @media only screen and (max-width: 300px) {
+              .text {font-size: 11px}
+            }
+            </style>
+
+                
+
+            <div class="slideshow-container">
+
+            <div class="mySlides fade">
+              <img class= "image" src="https://1.cdn.edl.io/XX2YQnRpsjrAPQVLVPHvOxTtaA9ybRFRZFEUPd9FyEsNvEem.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+              <img class="image" src="https://pbs.twimg.com/media/CrZhwbzUsAAf-eF.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+              <img class= "image" src="https://www.austinisd.org/sites/default/files/field/announcement_image/050617_LAAA_03.jpg" style="width:100%">
+            </div>
+
+            </div>
+            <br>
+
+            <div style="text-align:center">
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+            </div>
+
+            <script>
+            var slideIndex = 0;
+            showSlides();
+
+            function showSlides() {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                var dots = document.getElementsByClassName("dot");
+                for (i = 0; i < slides.length; i++) {
+                   slides[i].style.display = "none";  
+                }
+                slideIndex++;
+                if (slideIndex > slides.length) {slideIndex = 1}    
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex-1].style.display = "block";  
+                dots[slideIndex-1].className += " active";
+                setTimeout(showSlides, 2000); // Change image every 2 seconds
+            }
+            </script>
+
+    
+    
+    
+        </section>
+    
+        <section id = "tabs">
+        <aside>
+                <ul>
+                    <li><a href="donate.asp">Donate</a></li>
+                    <li><a href="book.asp">Book a Performance</a></li>
+                    <li><a href="gallary.asp">Gallery</a></li>
+                    <li class = "topLeft"><a herf="default.asp"><strong> Akins Ballet Folklorico</strong></a></li>
+                </ul>
+            </aside>
+        <style>
+            ul {
+                width: 100%;
+                list-style-type: none;
+                position: absolute;
+                overflow: hidden;
+                top: 0;
+                margin: 0;
+                padding: 20px;
+                color: black;
+                background-color: transparent;
+                }
+
+            li {
+                float: right;
+                margin-right: 50px;
+                margin-left: 10px;
+                margin-top: 10px;
+                color: black;
+                }
+            li a {
+                text-align: center;
+                display: block;
+                color: #000;
+                padding: 10px 30px;
+                text-decoration: none;
+                color:black;
+                font-size: 20px;
+                }
+            li a:hover {
+                background-color: transparent;
+                color: firebrick;
+                }
+            .active {
+                background-color: transparent;
+                color: firebrick;
+                }
+            .topLeft {
+                float: left;
+                font-size: 20px;
+                }
+            .topLeft a:hover {
+                color: firebrick;
+                background-color:transparent;
+                font-size: 20px;
+                }
+            body{
+                background-color: white;
+                }
+            #slides{
+                z-index:-1;
+                }
+            #tabs{
+                z-index:1;
+                }
+        </style>
+        </section>
+        </head>    
+       
+        
+        <body>
+            
+            <p class = "about"> Akins Ballet Folklorico is a student led and student taught club at Akins High School.<br> 
+                Student Rachel Rivera from the Class of 2018 founded the group when she was a <br>
+                freshman in 2015 and became president of the club. Rachel Rivera is the "Maestra", <br> 
+                teacher, of Akins Ballet Folklorico. She organizes, teaches, and coreographs all dances. 
+            </p>
+            <p class = "aboutContinued"> Akins Ballet Folklorico partners with the Latinos Unidos Club at Akins High <br>
+                School to perform at Akins's Cinco De Mayo Show every year. We want to thank Latinos <br>
+                Unidos for all the great opportunites they have given Akins Ballet Folklorico from the start. <br>
+                For letting us unite as one culture at school.
+            </p>
+            
+            <img id = "Rachel" src="https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/28276560_1689940871062395_4922244202686082849_n.jpg?_nc_cat=0&oh=8195ea1e83b7ad752886a98bffdff7f1&oe=5B70030E" alt="Rachel Rivera">
+            <p class ="rachel"> <strong> Rachel Rivera </strong> </p>
+            
+    <style>
+        .about{
+            position: absolute;
+            top:800px;
+            margin:50px;
+            padding:40px;
+            font-size: 20px;
+            display: block;
+            }
+        .aboutContinued{
+            position: absolute;
+            top: 930px;
+            margin: 50px;
+            padding: 40px;
+            font-size: 20px;
+            display: block;
+            }
+        #Rachel{
+            position:absolute;
+            float: right;
+            margin: 20px;
+            height: 400px;
+            width:auto;
+            right: 100px;
+            top: 800px;
+            clip: rect(70px,200px,350px,20px);
+            }
+        .rachel{
+            top: 800px;
+            padding: 20px;
+            margin: 40px;
+            right: 100px;
+            font-size: 20px;
+            color: black;
+            float:right;
+            position: absolute; 
+            }
+    </style>
+            
+            
+            
+       
+       <h1 id = "officers"> Officers </h1>
+            <p id = "RachelR"> <strong> President </strong> <br>
+                Rachel Rivera
+            </p>
+            <img id = "RachPic"src = "https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/17424985_1370340783022407_5926401937812837781_n.jpg?_nc_cat=0&oh=46a20005c2df675a821a77a2236a8b36&oe=5B2858B7">
+            <p id = "Liz"> <strong> Vice-President </strong> <br>
+                Lizthebett Valdivia 
+            </p>
+            <img id = "LizPic"src = "https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/30726676_2027479920836444_9072230943707627520_n.jpg?_nc_cat=0&oh=3dbe6b749232a0a5a185be2d9a1cc0ed&oe=5B692764">
+            
+       <h1 id = "members"> Members </h1>
+    
+        
+     <style>
+         #officers {
+             font-size: 30px;
+             color: black;
+             position: absolute;
+             left: 330px;
+             margin:40px;
+             padding:20p;
+             top:1300px;
+            }  
+         #members{
+             font-size: 30px;
+             color: black;
+             position: absolute;
+             right: 250px;
+             margin:40px;
+             padding:20p;
+             top:1300px; 
+            }
+         #RachelR {
+             font-size: 20px;
+             color: black;
+             position: absolute;
+             margin:30px;
+             margin-bottom: 20px;
+             padding: 20px;
+             left: 120px;
+             top: 1350px;
+            }
+         #Liz {
+             font-size: 20px;
+             color: black;
+             position: absolute;
+             margin:30px;
+             margin-bottom: 20px;
+             padding: 20px;
+             left: 420px;
+             top: 1350px;
+             right: 100px; 
+             float: right;
+            }
+         #RachPic{
+            top:1420px;
+             margin:10px;
+             left:0;
+             padding:20px;
+             width: 500px;
+             height: 500px;
+             position: absolute;
+             clip: rect(0px,375px,350px,125px);
+
+            }
+         #LizPic{
+             top:1420px;
+             margin:10px;
+             padding:20px;
+             width: 300px;
+             height: auto;
+             float: right;
+             left: 400px;
+             position: absolute;
+             clip: rect(0px, 350px,350px,0px);
+
+            }
+     </style>
+            
+        <h2> Special Thanks to all of our donors </h2>
+        
+            <p id="donor">    </p>
+        
+        <style>
+           h2{
+               font-size: 30px;
+               position: absolute;
+               top: 2000px;
+               right: 35%;
+            }
+            #donor{
+                
+                }
+        </style>
+            
+    
+        
+    </body>
+    
+</html>
